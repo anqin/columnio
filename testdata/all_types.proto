@@ -1,0 +1,32 @@
+message AllTypes {
+    optional int32 value_int32 = 1;
+    optional int64 value_int64 = 2;
+    optional uint32 value_uint32 = 3;
+    optional uint64 value_uint64 = 4;
+    optional sint32 value_sint32 = 5;
+    optional sint64 value_sint64 = 6;
+    optional fixed32 value_fixed32 = 7;
+    optional fixed64 value_fixed64 = 8;
+    optional sfixed32 value_sfixed32 = 9;
+    optional sfixed64 value_sfixed64 = 10;
+    optional float value_float = 11;
+    optional double value_double = 12;
+    optional bool value_boolean = 13;
+    optional string value_string = 14;
+    optional bytes value_bytes = 15;
+    repeated int32 rvalue_int32 = 101;
+    repeated int64 rvalue_int64 = 102;
+    repeated uint32 rvalue_uint32 = 103;
+    repeated uint64 rvalue_uint64 = 104;
+    repeated sint32 rvalue_sint32 = 105;
+    repeated sint64 rvalue_sint64 = 106;
+    repeated fixed32 rvalue_fixed32 = 107;
+    repeated fixed64 rvalue_fixed64 = 108;
+    repeated sfixed32 rvalue_sfixed32 = 109;
+    repeated sfixed64 rvalue_sfixed64 = 110;
+    repeated float rvalue_float = 111;
+    repeated double rvalue_double = 112;
+    repeated bool rvalue_boolean = 113;
+    repeated string rvalue_string = 114;
+    repeated bytes rvalue_bytes = 115;
+}
